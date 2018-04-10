@@ -1,0 +1,19 @@
+{
+    "name": "themexpert/rfms-plugin-fontawesome",
+    "description": "FontAwesome plugin for React File Manager",
+    "authors": [
+        {
+            "name": "Rocky",
+            "email": "wpkpda@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FontAwesome\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "themexpert/react-filemanager-server": "v1.0.1.x-dev"
+    }
+}
